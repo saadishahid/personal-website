@@ -447,9 +447,13 @@ mark,
 
 .list-inline-item {
   display: inline-block;
+  transition: transform .2s;
 }
 .list-inline-item:not(:last-child) {
   margin-right: 0.5rem;
+}
+.list-inline-item:hover{
+  transform: scale(1.5);
 }
 
 .initialism {
@@ -10074,12 +10078,14 @@ p.lead {
   border-radius: 100%;
   font-size: 1.5rem;
   margin-right: 1.5rem;
+  transition: transform .2s;
 }
 .social-icons .social-icon:last-child {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
   background-color: #00587a;
+    transform: scale(1.5);
 }
 
 .dev-icons {
